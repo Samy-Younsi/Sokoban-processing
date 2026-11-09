@@ -36,20 +36,22 @@ Un niveau est réussi quand toutes les cibles sont couvertes par une caisse.
 
 1. Installer [Processing](https://processing.org/download) (mode Java).
 2. Installer la bibliothèque **Sound** : *Sketch > Import Library > Manage Libraries*, puis chercher « Sound ».
-3. Ouvrir `Sokoban.pde` (le dossier du sketch doit s'appeler `Sokoban`).
+3. Télécharger le dépôt et ouvrir Sokoban.pde dans Processing. Processing propose de le placer dans un dossier Sokoban (le dossier d’un sketch doit porter le nom du fichier principal) : accepter.
 4. Vérifier que le dossier `data/` contient bien `reload.png`, `sokoban.mp3` et les fichiers `level*.skb`.
 5. Cliquer sur **Exécuter**.
 
 ## Structure du projet
 
 ```
-Sokoban/
-├── Sokoban.pde        # code du jeu
-├── sketch.properties
-└── data/
-    ├── reload.png     # icône du bouton de rechargement
-    ├── sokoban.mp3    # musique de fond
-    └── level1.skb … level26.skb
+Sokoban-processing/
+  ├── README.md
+  ├── Sokoban.pde        # code du jeu
+  ├── sketch.properties
+  ├── screenshots/       # captures d'écran du README
+  └── data/
+      ├── reload.png     # icône du bouton de rechargement
+      ├── sokoban.mp3    # musique de fond
+      └── level1.skb … level26.skb
 ```
 
 ## Fonctionnement du code
